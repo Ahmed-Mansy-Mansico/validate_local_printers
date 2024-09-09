@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-09-09 03:01:23.041864",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "domain",
+  "allowed",
+  "column_break_wpya",
+  "allowed_domain",
+  "section_break_qqnm",
+  "cors_origins",
+  "frappe_socket_url",
+  "login_url",
+  "usr",
+  "pwd",
+  "column_break_fxur",
+  "api_key",
+  "api_secret",
+  "wkhtmltopdf",
+  "letterhead_image",
+  "sumatra_pdf_path",
+  "section_break_uidd",
+  "action",
+  "created_by",
+  "timestamp"
+ ],
+ "fields": [
+  {
+   "fieldname": "domain",
+   "fieldtype": "Data",
+   "label": "domain",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "allowed",
+   "fieldtype": "Check",
+   "label": "allowed"
+  },
+  {
+   "fieldname": "section_break_qqnm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cors_origins",
+   "fieldtype": "Data",
+   "label": "CORS_ORIGINS"
+  },
+  {
+   "fieldname": "frappe_socket_url",
+   "fieldtype": "Data",
+   "label": "FRAPPE_SOCKET_URL"
+  },
+  {
+   "fieldname": "login_url",
+   "fieldtype": "Data",
+   "label": "LOGIN_URL"
+  },
+  {
+   "fieldname": "usr",
+   "fieldtype": "Data",
+   "label": "usr"
+  },
+  {
+   "fieldname": "pwd",
+   "fieldtype": "Data",
+   "label": "pwd"
+  },
+  {
+   "fieldname": "column_break_fxur",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API_KEY"
+  },
+  {
+   "fieldname": "api_secret",
+   "fieldtype": "Data",
+   "label": "API_SECRET"
+  },
+  {
+   "fieldname": "wkhtmltopdf",
+   "fieldtype": "Data",
+   "label": "WKHTMLTOPDF"
+  },
+  {
+   "fieldname": "letterhead_image",
+   "fieldtype": "Data",
+   "label": "LETTERHEAD_IMAGE"
+  },
+  {
+   "fieldname": "sumatra_pdf_path",
+   "fieldtype": "Data",
+   "label": "SUMATRA_PDF_PATH"
+  },
+  {
+   "fieldname": "column_break_wpya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "allowed_domain",
+   "fieldtype": "Data",
+   "label": "Allowed Domain"
+  },
+  {
+   "fieldname": "section_break_uidd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "action",
+   "fieldtype": "Data",
+   "label": "action"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Data",
+   "label": "created_by"
+  },
+  {
+   "fieldname": "timestamp",
+   "fieldtype": "Datetime",
+   "label": "timestamp"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-09 03:15:46.692265",
+ "modified_by": "Administrator",
+ "module": "Validate Local Printers",
+ "name": "Allowed Domain Logs",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
