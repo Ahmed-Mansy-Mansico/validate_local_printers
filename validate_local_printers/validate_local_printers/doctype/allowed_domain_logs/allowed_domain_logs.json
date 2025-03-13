@@ -32,8 +32,7 @@
   {
    "fieldname": "domain",
    "fieldtype": "Data",
-   "label": "domain",
-   "unique": 1
+   "label": "domain"
   },
   {
    "default": "0",
@@ -130,7 +129,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-09 03:15:46.692265",
+ "modified": "2024-09-09 08:50:52.513136",
  "modified_by": "Administrator",
  "module": "Validate Local Printers",
  "name": "Allowed Domain Logs",
